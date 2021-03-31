@@ -1,25 +1,22 @@
-# WeLoveMovies_Backend [View Api](https://we-love-movies-backend-zeta.vercel.app/movies)
-## Click here to check out the full project [We Love Movies](https://we-love-movies-frontend.vercel.app/).
-
 > Engineered a database and RESTful API with CRUD operations allowing users to access data about the latest movies, theaters, and reviews.
 
-### Routes
-- /movies
-- /movies?is_showing=true
-- /movies/:movieId
-- /movies/:movieId/theaters
-- /movies/:movieId/reviews
-- /theaters
-- /reviews [PUT/DELETE]
-
 ### Tasks
-- Built an API following RESTful design principles
-- Utilizied common middleware packages
+- Build an API following RESTful principles
 - Provided access to relevant information through route and query parameters
+- Utilizie middleware packages
 - Created an error handler for the case where a route doesn't exist
-- Customized knexfile.js file for staging
-- Used Knex to write database queries, completeing CRUD routes in an Express server
-- Utilized joined and nested data with Knex (treeize)
-- Wrote database migrations using Knex's migration tool
-- Deployed to Vercel with matching front end.
+- Customize knexfile file for staging
+- Used Knex to write database queries
+- Complete CRUD routes in an Express server
+- Utilized nested and joined data with Knex (treeize)
+- Used Knex's migration tool to write database migrations
+- Deployed to Vercel
 
+### Routes
+- /reviews [PUT/DELETE]
+- /theaters
+- /movies
+- - /movies?is_showing=true
+- - /movies/:movieId
+- - /movies/:movieId/theaters
+- - /movies/:movieId/reviews
